@@ -7,3 +7,8 @@ a {
     text-decoration: none;
     color: black;
 }
+
+/* universal selector */
+* {
+    box-sizing: border-box; /* this way the padding, margins and border set on our group-input component do not affect the element size */
+}
